@@ -4,19 +4,276 @@ body {
     font-size: 30px;
 }
 
+#particles-js {
+    background: #1488CC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #28313b, #485461);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #28313b, #485461);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    vertical-align: bottom;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+
+#particles-js .particles-js-canvas-el {
+    width: 100% !important;
+    height: 100vh !important
+}
+
+.header {
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.header .site-title {
+    font-size: 35px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+}
+
+@media only screen and (min-width:550px) {
+    .header .site-title {
+        margin: 0;
+        font-size: 100px
+    }
+}
+
+.header .site-description {
+    font-size: 20px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+    margin-top: 10px
+}
+
+@media only screen and (min-width:550px) {
+    .header .site-description {
+        font-size: 40px
+    }
+}
+
+.header-links {
+    margin: 10px
+}
+
+.header-links .link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px
+}
+
+@media only screen and (min-width:550px) {
+    .header-links .link {
+        font-size: 20px
+    }
+}
+
+.header-icons {
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+.down,
+.header-icons .icon {
+    color: #fff;
+    text-align: center
+}
+
+.header-icons .icon {
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: all .7s;
+    width: 20px;
+    font-size: 20px;
+    margin: 5px
+}
+
+.header-icons .icon:active,
+.header-icons .icon:hover {
+    color: #1488CC;
+    background: #fff
+}
+
+@media only screen and (min-width:550px) {
+    .header-icons .icon {
+        width: 35px;
+        height: 35px;
+        font-size: 35px
+    }
+}
+
+.header .site-title {
+    font-size: 35px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+}
+
+@media only screen and (min-width:550px) {
+    .header .site-title {
+        margin: 0;
+        font-size: 100px
+    }
+}
+
+.header .site-description {
+    font-size: 20px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+    margin-top: 10px
+}
+
+@media only screen and (min-width:550px) {
+    .header .site-description {
+        font-size: 40px
+    }
+}
+
+
+
+
+
+.user-details {
+    text-align: center !important;
+    margin: 5px auto !important;
+}
+
+@media only screen and (min-width:550px) {
+    .contents {
+        margin-left: 0 !important;
+        width: 48% !important;
+     }
+
+    .contents,
+    .contents-right {
+        margin-top: -5% !important;
+    }
+
+    .contents-right,
+    .images-right {
+        float: right !important;
+        width: 48% !important;
+    }
+
+    .images-right img {
+        float: right !important;
+    }
+
+    .images-left {
+        float: left;
+        width: 48% !important;
+    }
+
+    .images-left img {
+        float: left !important;
+    }
+}
+
+.project-link {
+    display: inline-block !important;
+    margin: 10px 0 !important;
+    padding: 5px !important;
+    color: #1488CC !important;
+    background-color: transparent !important;
+    border: 1px solid #1488CC !important;
+    border-radius: 10px !important;
+    text-align: center !important;
+    outline: 0 !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out !important;
+}
+
+.project-link:active,
+.project-link:hover {
+    background-color: #5347a8 !important;
+    border-color: #5347a8 !important;
+    color: #fff !important;
+    transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in !important;
+}
+
+@media only screen and (min-width:550px) {
+    #projects {
+        width: 80% !important;
+        background-color: white;
+    }
+}
+
+.user-projects {
+    margin: 20px auto !important;
+}
+
+.user-projects img {
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 5px !important;
+}
+
+.user-projects h5 {
+    margin: 0 !important;
+}
+
+.user-projects li {
+    color: #1488CC !important;
+    font-size: 1.1rem !important;
+}
+
+.user-projects p {
+    margin-right: 5px !important;
+}
+
+#projects {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    width: 90% !important;
+    max-width: 960px !important;
+    margin: 0 auto !important;
+}
+
+@media only screen and (min-width:550px) {
+    #projects {
+        width: 80% !important;
+    }
+}
+
+
 
 
 /* Body Header */
 
-#body-header {
+/* #body-header {
+    z-index: 2;
     height: 65vh;
-    opacity: 0.8;
-    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding-top: 1.2rem;
-}
+    width: 100%;
+    opacity: 0.8; */
+    /* background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg); */
+    /* background-size: cover;
+    background-position: center; */
+    /* background-attachment: fixed; */
+    /* padding-top: 1.2rem;
+} */
 
 
 
