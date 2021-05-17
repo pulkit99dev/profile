@@ -1,3 +1,11 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+@import url(https://fonts.googleapis.com/css?family=Rubik);
+
+html{
+    overflow-x: hidden;
+}
+
 /* Animation set */
 @-webkit-keyframes pulse {
 
