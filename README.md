@@ -7,6 +7,6 @@
 
  <p align="justify">This website serves as an online résumé and displays my web presence, story, work experience, education, projects, achievements, and contact information. It was created using Javascript, HTML, and CSS.</p>
 
-![Personal Résume Website](https://github.com/pulkit99dev/profile/main/website.png)
+![Personal Résume Website](https://github.com/pulkit99dev/profile/blob/main/website.png)
 
-Please hit me up at avsingh@umass.edu if you have any feedback or ideas for the website. Leave a :star: &nbsp;if you like it!
+Please hit me up at pulkitnagpal987654321@gmail.com if you have any feedback or ideas for the website. Leave a :star: &nbsp;if you like it!
